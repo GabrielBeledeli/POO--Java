@@ -1,14 +1,10 @@
-package Atividade3;
+public abstract class Funcionario {
+    protected String nome;
+    protected double salario;
 
-public class Funcionario {
-    private String nome;
-    private double salario;
-    private Departamento departamento;
-
-    public Funcionario(String nome, double salario, Departamento departamento) {
+    public Funcionario(String nome, double salario) {
         this.nome = nome;
         this.salario = salario;
-        this.departamento = departamento;
     }
 
     public String getNome() {
@@ -19,12 +15,5 @@ public class Funcionario {
         return salario;
     }
 
-    public Departamento getDepartamento() {
-        return departamento;
-    }
-
-    @Override
-    public String toString() {
-        return nome + " - " + salario + " - " + departamento.getNome();
-    }
+    public abstract double calcularBonus();
 }
