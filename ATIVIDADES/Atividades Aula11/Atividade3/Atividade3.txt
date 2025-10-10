@@ -1,0 +1,7 @@
+Alta coesão e baixo acoplamento são a base para um bom uso do princípio DRY (Don't Repeat Yourself).
+
+1.  **Alta Coesão** cria um lugar único e específico para cada responsabilidade. Se uma classe é altamente coesa para "calcular frete", toda a lógica de cálculo de frete estará centralizada nela. Isso naturalmente evita que você reescreva (repita) essa mesma lógica em outras partes do código.
+
+2.  **Baixo Acoplamento** torna essa classe de "cálculo de frete" fácil de ser usada por qualquer outro módulo do sistema. Como ela é independente, outras partes do código podem simplesmente chamar seu método sem esforço, o que incentiva a reutilização da lógica centralizada em vez da sua duplicação.
+
+Em resumo: a coesão cria o "lugar certo" para a lógica não se repetir, e o baixo acoplamento torna fácil para todos usarem esse "lugar certo".
