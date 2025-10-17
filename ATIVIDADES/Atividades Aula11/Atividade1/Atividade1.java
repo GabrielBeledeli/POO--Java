@@ -66,3 +66,5 @@ class ServicoDeEmail_Refatorado {
         // ... aqui entraria a lógica para enviar um email para o cliente ...
     }
 }
+
+

@@ -5,3 +5,4 @@ Alta coesão e baixo acoplamento são a base para um bom uso do princípio DRY (
 2.  **Baixo Acoplamento** torna essa classe de "cálculo de frete" fácil de ser usada por qualquer outro módulo do sistema. Como ela é independente, outras partes do código podem simplesmente chamar seu método sem esforço, o que incentiva a reutilização da lógica centralizada em vez da sua duplicação.
 
 Em resumo: a coesão cria o "lugar certo" para a lógica não se repetir, e o baixo acoplamento torna fácil para todos usarem esse "lugar certo".
+

@@ -42,3 +42,5 @@ public class Main {
         administrador.autenticar("errada"); // senha incorreta
     }
 }
+
+

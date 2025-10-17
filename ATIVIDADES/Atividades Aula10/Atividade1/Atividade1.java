@@ -17,3 +17,5 @@ public class Atividade1 {
         System.out.println("O programa continua a execução após o tratamento do erro.");
     }
 }
+
+

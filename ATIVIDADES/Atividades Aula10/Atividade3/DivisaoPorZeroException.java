@@ -4,3 +4,4 @@ public class DivisaoPorZeroException extends Exception {
         super(mensagem);
     }
 }
+

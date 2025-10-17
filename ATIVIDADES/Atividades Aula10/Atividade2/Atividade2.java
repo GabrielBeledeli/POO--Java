@@ -28,4 +28,6 @@ public class Atividade2 {
             System.out.println("Erro no cadastro: " + e.getMessage());
         }
     }
+
+    
 }
