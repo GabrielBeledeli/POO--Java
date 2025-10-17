@@ -1,0 +1,3 @@
+A regra de Object Calisthenics mais impactante é a de não usar getters e setters.
+
+Ela força uma mudança de mentalidade: em vez de criar objetos que são meros "porta-dados", o desenvolvedor é obrigado a criar objetos que possuem comportamentos e responsabilidades próprias. A lógica de negócio fica dentro do próprio objeto, promovendo um encapsulamento mais forte e um design verdadeiramente orientado a objetos.
